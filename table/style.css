@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(./240_F_430787191_PUREgjGnYQY5G2myi3PTgyZ4rm1XfqEu.jpg);
+    background-repeat: no repeat;
+}
+.heading{
+    text-align: center;
+    font-size:60px;
+    font-weight: 700;
+    color:black;
+    background-color: gold;
+   
+}
+.container{
+    max-width: 800px;
+    margin: 100px auto;
+
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 20px;
+    color:aqua;
+    background-image: url(./banner.jpg);
+    text-align: center;
+}
+table,th,td{
+    border: 1px solid #fff;
+}
+
+.table thead tr th{
+    background-color: rgba(13, 1, 1, 0.964);
+    color: gold;
+    font-size: 20px;
+    font-weight:700;
+    padding: 20px;
+}
+td{
+    padding: 20px;
+}
+.btn td:nth-child(3){
+    background-color: rgba(0, 0, 0, 0.7);
+    color:gold;
+    font-size: 20px;
+    font-weight: 700;
+}
+.btn td:nth-child(5){
+    background-color: rgba(243, 208, 10, 0.945);
+    color:black;
+    font-size:35px;
+    font-weight: 600;
+}
+.button td:nth-child(1){
+    background-color: rgba(0, 0, 0, 0.7);
+    color: gold;
+    font-size: 25px;
+    font-weight: 700;
+}
+.button td:nth-child(4){
+    background-color:rgba(0, 0, 0, 0.7);
+    color:gold;
+    font-size: 22px;
+    font-weight: 600;
+}
+.tag td:nth-child(3){
+    background-color: rgba(0, 0, 0, 0.7);
+    color: gold;
+    font-size: 22px;
+    font-weight: 600;
+}

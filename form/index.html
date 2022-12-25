@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>form</title>
+</head>
+<body>
+    <section class="form-section">
+        <div class="heading">Registration</div><hr>
+        <div class="form-container">
+            <form action="index.php" method="get">
+                <label for="">First name :</label>
+                <input type="text" name="userName"><br>
+                <label for="">Last name :</label>
+                <input type="text" name="userName"><br>
+                <label for="">Address  :</label>
+                <input type="text" name="userAddress"><br>
+                <label for="">password :</label>
+                <input type="password" name="userPassword"><br>
+                <label for="">Email :</label>
+                <input type="email" name="userEmail"><br>
+                <label for="">Phone-number :</label>
+                <input type="tel" name="phonNumber"><br>
+                <label for="">zip-code :</label>
+                <input type="number" name="zip-code"><br>
+                <label for="">date :</label>
+                <input type="date" name="date"><br>
+                <label for="">color :</label>
+                <input type="color" name="color"><br>
+                <label for="">Gender :</label>
+                <input type="radio" name="gender"> male
+                <input type="radio" name="gender"> female <br>
+                <label for="">District :</label>
+                <select name="district" id="">
+                    <option value="">choose your districtt</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="chittagong">chittagong</option>
+                    <option value="khulna">khulna</option>
+                    <option value="rajshahi">rajshahi</option>
+               </select><br>
+               <label for="">Comment :</label><br>
+               <textarea name="comment" id="" cols="30" rows="10" placeholder="comment something"></textarea><br>
+               <input type="reset" value="reset">
+               <input type="submit" value="sent data">
+
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>

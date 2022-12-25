@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    font-size: 40px;
+    font-weight: 700;
+    color:black;
+    background-color:#fff;
+    padding: 20px 0 20px 140px;
+    
+   
+   
+    
+}
+.form-section{
+    height: 800px;
+    background-color: rgba(17, 149, 107, 0.89);
+    
+}
+.form-container{
+    max-width: 800px;
+    margin: 20px auto;
+    
+
+}
+
+    label{display: inline-block;
+        margin-bottom: 10px;
+        font-size: 22px;
+        font-weight: 700;
+        color:black;
+       
+        
+        }
+    input{
+        
+    }
+        
+    
